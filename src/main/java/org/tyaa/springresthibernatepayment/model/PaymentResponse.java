@@ -15,7 +15,7 @@ public class PaymentResponse {
 	private String status;
 	private String message;
 	private String txDate;
-	private List<Payment> payments;
+	private List payments;
 
 	public String getStatus() {
 		return status;
@@ -45,7 +45,7 @@ public class PaymentResponse {
 		return payments;
 	}
 
-	public void setPayments(List<Payment> payments) {
+	public void setPayments(List payments) {
 		this.payments = payments;
 }
 }
